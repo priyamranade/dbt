@@ -1,0 +1,10 @@
+dbt_project:
+  outputs:
+    dev:
+      catalog: dbt_data_catalog
+      host: dbc-fec66c56-0781.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/e4acf4976705518f
+      schema: default
+      threads: 1
+      type: databricks
+  target: dev
